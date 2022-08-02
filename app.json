@@ -1,7 +1,7 @@
 {
   "name": "Assemble Base.",
   "description": "A code base.",
-  "repository": "https://base.assembled.app/code/base",
+  "repository": "https://base.bingo/code/base",
   "success_url": "/",
   "dokku": {
     "plugins": [
@@ -15,13 +15,8 @@
     ],
     "volumes": [
       {
-        "host": "/var/lib/dokku/data/storage/gitea",
-        "app": "/data/gitea",
-        "phases": "deploy,run"
-      },
-      {
-        "host": "/var/lib/dokku/data/storage/gitea/git",
-        "app": "/data/git/repositories",
+        "host": "/home/access/disc/bingo",
+        "app": "/home/access",
         "phases": "deploy,run"
       }
     ]
