@@ -1,7 +1,7 @@
 {
-  "name": "gitea",
-  "description": "Git with a cup of tea, painless self-hosted git service",
-  "repository": "https://github.com/dionysio/dokku-gitea",
+  "name": "Assemble Base.",
+  "description": "A code base.",
+  "repository": "https://base.assembled.app/code/base",
   "success_url": "/",
   "dokku": {
     "plugins": [
